@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 
+:root {
+    --main-bg-color: rgb(202, 155, 247);
+}
 body {
     font-size: 10px;
     font-family: 'Inconsolata', monospace;
     margin: 0;
     padding: 0;
+    color: rgb(52, 38, 38);
 }
 a {
     outline: none;
@@ -63,5 +67,47 @@ main {
 
 .container {
     margin: 2rem auto;
-    border: 1px solid rgb(167, 165, 165);
+    /* border: 1px solid rgb(167, 165, 165); */
+}
+.home {
+    display: flex;
+    justify-content: left;
+}
+
+.home__image {
+    width: 35vw;
+    border-radius: 5px;
+    object-fit: fill;
+}
+
+.home__text {
+    margin-left: 2rem;
+}
+
+.home__title,
+.home__subtitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.home__subtitle {
+    display: inline-block;
+    background-color: var(--main-bg-color);
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+.home__description {
+    margin-top: 2rem;
+}
+.home__description ul {
+    padding-left: 1.3rem;
+}
+.home__description ul li {
+    list-style-type: square;
+    line-height: 0.8rem;
+}
+.home__description ul li span {
+    background-color: var(--main-bg-color);
 }
