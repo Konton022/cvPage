@@ -1,0 +1,49 @@
+.home {
+    min-height: 50vh;
+    display: flex;
+    justify-content: left;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 0 5px var(--border-line-color);
+}
+.home__photo {
+    max-width: 35vw;
+}
+.home__image {
+    width: 100%;
+
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.home__text {
+    margin-left: 2rem;
+}
+
+.home__title,
+.home__subtitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.home__subtitle {
+    display: inline-block;
+    background-color: var(--main-bg-color);
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+.home__description {
+    margin-top: 2rem;
+}
+.home__description ul {
+    padding-left: 1.3rem;
+}
+.home__description ul li {
+    list-style-type: square;
+    line-height: 0.8rem;
+}
+.home__description ul li span {
+    background-color: var(--main-bg-color);
+}

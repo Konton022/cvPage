@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import url('./header.css');
+@import url('./home.css');
+@import url('./skills.css');
+
+:root {
+    --main-bg-color: rgb(202, 155, 247);
+    --border-line-color: rgb(228, 211, 243);
+}
+body {
+    font-size: 10px;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    color: rgb(52, 38, 38);
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+main {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 2rem auto;
+    /* border: 1px solid rgb(167, 165, 165); */
+}
