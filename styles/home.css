@@ -5,11 +5,15 @@
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
   /* flex-wrap: wrap; */
 }
 
 .home__photo {
   max-width: 30vw;
+  min-width: 250px;
 }
 
 .home__image {
@@ -72,6 +76,16 @@
   }
   .home__text {
     margin-left: 0;
+  }
+  .home__text .home__title {
+    margin-top: 1rem;
+  }
+  .home__text .home__description {
+    font-size: 0.8rem;
+  }
+  .home__text .home__description ul li {
+    list-style-type: square;
+    line-height: 1rem;
   }
 }
 /*# sourceMappingURL=home.css.map */

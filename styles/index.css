@@ -26,7 +26,9 @@ main {
 }
 
 .section {
-  min-height: 50vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   border-radius: 5px;
   padding: 1rem;
   -webkit-box-shadow: 0 0 5px var(--border-line-color);

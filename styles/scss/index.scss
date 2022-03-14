@@ -24,7 +24,7 @@ main {
     margin: 0 auto;
 }
 .section {
-    min-height: 50vh;
+    min-height: fit-content;
     border-radius: 5px;
     padding: 1rem;
     box-shadow: 0 0 5px var(--border-line-color);
