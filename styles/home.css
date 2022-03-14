@@ -5,15 +5,11 @@
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  min-width: -webkit-max-content;
-  min-width: -moz-max-content;
-  min-width: max-content;
   /* flex-wrap: wrap; */
 }
 
 .home__photo {
   max-width: 30vw;
-  min-width: 250px;
 }
 
 .home__image {

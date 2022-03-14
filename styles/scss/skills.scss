@@ -9,10 +9,23 @@
 
 .skills__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
+.skills__title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0.5rem auto 1rem;
+}
 .skills__item {
+    text-align: center;
+    width: 5rem;
+    margin: 0.5rem;
 }
 .skills__img {
+}
+.skills__describ {
+    text-align: center;
+    text-transform: uppercase;
 }

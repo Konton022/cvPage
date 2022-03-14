@@ -1,2 +1,2 @@
-.skills__title{text-align:center;font-size:1.3rem;font-weight:700}.skills__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly}
+.skills__title{text-align:center;font-size:1.3rem;font-weight:700}.skills__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly}.skills__title{font-size:1.3rem;font-weight:700;margin:0.5rem auto 1rem}.skills__item{text-align:center;width:5rem;margin:0.5rem}.skills__describ{text-align:center;text-transform:uppercase}
 /*# sourceMappingURL=skills.min.css.map */
