@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;CAOhB;;AARD,AAEI,aAFS,CAET,cAAc,CAAC;EACX,SAAS,EAAE,KAAK;CAInB;;AAPL,AAIQ,aAJK,CAET,cAAc,CAEV,YAAY,CAAC;EACT,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "scss/certif.scss"
+    ],
+    "names": [],
+    "file": "certif.css"
+}
