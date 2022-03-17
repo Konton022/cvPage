@@ -4,11 +4,13 @@
   display: flex;
 }
 
-.certif__item .certif__photo {
-  max-width: 250px;
+.certif__photo {
+  width: 250px;
 }
 
-.certif__item .certif__photo .certif__img {
+.certif__img {
+  height: 300px;
+  width: 250px;
   -o-object-fit: cover;
      object-fit: cover;
 }

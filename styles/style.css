@@ -2,6 +2,7 @@
 @import url('./header.css');
 @import url('./home.css');
 @import url('./skills.css');
+@import url('./certif.css');
 
 :root {
     --main-bg-color: rgb(202, 155, 247);

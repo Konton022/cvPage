@@ -1,2 +1,2 @@
-.certif__item{display:-webkit-box;display:-ms-flexbox;display:flex}.certif__item .certif__photo{max-width:250px}.certif__item .certif__photo .certif__img{-o-object-fit:cover;object-fit:cover}
+.certif__item{display:-webkit-box;display:-ms-flexbox;display:flex}.certif__photo{width:250px}.certif__img{height:300px;width:250px;-o-object-fit:cover;object-fit:cover}
 /*# sourceMappingURL=certif.min.css.map */

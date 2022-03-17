@@ -1,9 +1,12 @@
 .certif__item {
     display: flex;
-    .certif__photo {
-        max-width: 250px;
-        .certif__img {
-            object-fit: cover;
-        }
-    }
+}
+
+.certif__photo {
+    width: 250px;
+}
+.certif__img {
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
 }
