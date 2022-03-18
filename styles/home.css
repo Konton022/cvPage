@@ -67,8 +67,13 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .home__photo {
+    max-width: 100%;
+  }
   .home__image {
-    min-width: 250px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .home__text {
     margin-left: 0;

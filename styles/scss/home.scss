@@ -55,9 +55,11 @@
         flex-direction: column;
     }
     .home__photo {
+        max-width: 100%;
     }
     .home__image {
-        min-width: 250px;
+        width: 100%;
+        object-fit: cover;
     }
     .home__text {
         margin-left: 0;

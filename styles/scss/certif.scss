@@ -1,12 +1,36 @@
+.certif__header {
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.certif__items {
+    display: flex;
+}
+.certif__wrapper {
+    margin-left: 1rem;
+}
 .certif__item {
     display: flex;
 }
 
 .certif__photo {
-    width: 250px;
+    max-width: 60%;
+    box-shadow: 0 0 5px var(--border-line-color);
+    border-radius: 5px;
 }
 .certif__img {
-    height: 300px;
-    width: 250px;
+    width: 100%;
     object-fit: cover;
+    object-position: left;
+}
+
+.certif__title {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 450px) {
 }
