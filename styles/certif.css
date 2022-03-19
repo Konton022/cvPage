@@ -10,6 +10,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .certif__wrapper {
@@ -20,13 +24,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .certif__photo {
-  max-width: 60%;
+  max-width: 55%;
   -webkit-box-shadow: 0 0 5px var(--border-line-color);
           box-shadow: 0 0 5px var(--border-line-color);
   border-radius: 5px;
+  padding: 1rem;
 }
 
 .certif__img {
@@ -35,6 +41,7 @@
      object-fit: cover;
   -o-object-position: left;
      object-position: left;
+  border-radius: 5px;
 }
 
 .certif__title {
