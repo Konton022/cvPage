@@ -42,4 +42,17 @@
 }
 
 @media (max-width: 450px) {
+    .certif__item {
+        flex-direction: column;
+        .certif__photo {
+            max-width: 100%;
+            background-color: rgb(235, 229, 229);
+            .certif__img {
+                width: 100%;
+            }
+        }
+        .certif__wrapper {
+            margin: 1rem 0;
+        }
+    }
 }
