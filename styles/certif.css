@@ -28,7 +28,7 @@
 }
 
 .certif__photo {
-  max-width: 55%;
+  max-width: 45%;
   -webkit-box-shadow: 0 0 5px var(--border-line-color);
           box-shadow: 0 0 5px var(--border-line-color);
   border-radius: 5px;
@@ -47,5 +47,9 @@
 .certif__title {
   font-size: 1.1rem;
   text-transform: uppercase;
+}
+
+.certif__list {
+  padding-left: 1rem;
 }
 /*# sourceMappingURL=certif.css.map */
