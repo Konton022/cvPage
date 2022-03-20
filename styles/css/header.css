@@ -1,0 +1,54 @@
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-width: 50vw;
+  font-size: 0.8rem;
+}
+
+.header__logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.header__wrapper {
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #dbd6d6;
+}
+
+.header__icon {
+  width: 1.2rem;
+}
+
+.navbar {
+  text-align: center;
+  border-bottom: 1px solid #ebe8e8;
+}
+
+.navbar__link {
+  color: blueviolet;
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  margin: 0.5rem 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar__link:visited {
+  color: blueviolet;
+}
+
+.navbar__link:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=header.css.map */

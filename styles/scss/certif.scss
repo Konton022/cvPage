@@ -39,6 +39,7 @@
 
 .certif__list {
     padding-left: 1rem;
+    list-style-type: square;
 }
 
 @media (max-width: 450px) {
@@ -46,7 +47,6 @@
         flex-direction: column;
         .certif__photo {
             max-width: 100%;
-            background-color: rgb(235, 229, 229);
             .certif__img {
                 width: 100%;
             }
