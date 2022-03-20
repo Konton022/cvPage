@@ -33,6 +33,7 @@
 
 .home__subtitle {
   display: inline-block;
+  color: whitesmoke;
   background-color: var(--main-bg-color);
   text-align: center;
   padding: 0 0.5rem;
@@ -52,6 +53,8 @@
 }
 
 .home__description ul li span {
+  color: whitesmoke;
+  padding: 0 0.2rem;
   background-color: var(--main-bg-color);
 }
 

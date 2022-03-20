@@ -42,11 +42,16 @@
   -o-object-position: left;
      object-position: left;
   border-radius: 5px;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
 }
 
 .certif__title {
   font-size: 1.1rem;
+  color: whitesmoke;
   text-transform: uppercase;
+  background-color: var(--main-bg-color);
+  padding: 0 0.5rem;
 }
 
 .certif__list {
