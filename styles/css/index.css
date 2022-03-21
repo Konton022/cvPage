@@ -9,7 +9,7 @@
 }
 
 body {
-  font-size: 10px;
+  font-size: 20px;
   font-family: 'Inconsolata', monospace;
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ a {
 }
 
 main {
-  max-width: 90vw;
+  max-width: 992px;
   margin: 0 auto;
 }
 
